@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <div>
         <ul>
-    <NavLink>
+    <NavLink to='/'>
         <li>Home</li>
         </NavLink>
-        <NavLink>
+        <NavLink to='/about'>
         <li>About</li>
         </NavLink>
-        <NavLink>
+        <NavLink to='/dashboard'>
         <li>Dashboard</li>
         </NavLink>
         </ul>
